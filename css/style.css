@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 65px;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.navigation {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    justify-content: space-around;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 15px;
+}
