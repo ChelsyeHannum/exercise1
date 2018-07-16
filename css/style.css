@@ -3,12 +3,16 @@ h1 {
     font-size: 65px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 body {
     background-color: lightgoldenrodyellow;
+    font-family: 'Abel', sans-serif;
 }
 
 .navigation {
-    font-family: 'Abel', sans-serif;
     display: flex;
     align-items: center;
     font-size: 45px;
@@ -27,4 +31,11 @@ body {
     text-decoration: none;
     margin-left: 25px;
     margin-right: 15px;
+}
+
+p {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
