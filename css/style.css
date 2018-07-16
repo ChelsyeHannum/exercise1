@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 33px;
 }
 
 body {
@@ -25,6 +25,7 @@ body {
 
 .navigation ul {
     list-style: none;
+    color: black;
 }
 
 .navigation a {
@@ -33,9 +34,22 @@ body {
     margin-right: 15px;
 }
 
+a:visited {
+    color: black;
+}
+
+.main-content {
+    display: flex;
+}
+
 p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+.extra {
+    display: inline-block;
+    justify-content: space-around;
 }
