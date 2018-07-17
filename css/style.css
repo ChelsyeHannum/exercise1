@@ -47,9 +47,14 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    font-size: 25px;
+    padding: 40px;
+    justify-content: space-evenly
 }
 
 .extra {
-    display: inline-block;
-    justify-content: space-around;
+    display: block;
+    justify-content: space-between;
+    font-size: 38px;
+    padding: 15px;
 }
